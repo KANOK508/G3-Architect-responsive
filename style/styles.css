@@ -1,3 +1,55 @@
-body{
-    background-color: aqua;
+body {
+  background-color: aqua;
 }
+
+/* ADD the FONT TO OUR FILE.. */
+
+/* Embed code in the <head> of your html---- IF WE ADD IT IN THE CSS FILE REMOVE THE <style> </style> tag... 
+
+Else --we can add it --inside ---html files--head tag.. Inside style tag... */
+
+/* ▬<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+</style> */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* it is css file for the work sans--- (i) we gave a new --class name... and font weight 
+, default font-weight is 400, ...  */
+/* 
+.work-sans-<uniquifier> {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+.font-work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* This 2 step only ---> Add the font Family style... NOt give the style .. to anyone .. till now... 
+
+How we give the font style..------->> 
+
+ANSWER : Just Add the OR GIVE THE --- font class name to OUR --HTML TAG ... FOR GIVE THIS FONT STYLE... 
+
+According to this if we have---> Import Multiple Font family we can use them in our Required 
+Place.... 
+
+Only using the CLASS inside our REQUIRED CLASS.. 
+(using we add this in the body tag--- so that font applied the whole body----.... ) 
+
+
+for example : 
+
+for a paragraph tag we want to use this font ---
+
+ans: <p class="font-work-sans"> I am kanok faisal ahawuee  </p> 
+
+*/
+
+/* WE can check that in the -- INSPECT IF OUR FONT REALLY APPLIED...  */
